@@ -784,7 +784,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url("../images/banner.jpg");
+  background-image: url("https://steadyfall.github.io/RedWish/images/banner.jpg");
   background-position: center center;
   background-size: cover;
   min-height: 380px;
