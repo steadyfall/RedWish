@@ -57,6 +57,7 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
+                        <li><a href="sign.html">Sign-In/Sign-Up</a></li>
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="details.html">Donate</a></li>
                         <li><a href="profile.html">Profile <img src="images/Profile-pic.jpg" alt=""></a></li>
@@ -256,6 +257,30 @@
     </div>
   </footer>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAoSKQ9zw8JCC-88uTWWJC8_AfSoHopA18",
+      authDomain: "redwish-website.firebaseapp.com",
+      projectId: "redwish-website",
+      storageBucket: "redwish-website.appspot.com",
+      messagingSenderId: "66339274303",
+      appId: "1:66339274303:web:ca6048a9730ada979d428a",
+      measurementId: "G-XEGRN54Q6H"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  
 </body>
 
 </html>
