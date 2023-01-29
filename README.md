@@ -1,5 +1,5 @@
 # RedWish
-An online platform which connects people to the easiness of blood donation-transfusion.
+An online platform which connects people to the easiness of blood donation-transfusion. <br/>[link](https://steadyfall.github.io/RedWish/).
 
 
 ## Inspiration
